@@ -24,7 +24,7 @@ All metrics should at least contain the following labels:
 
 The `centre-id` for each WIS2 component (WIS2 Node, Global Service, Sensor Centre, etc.) is listed in the [WMO Codes Registry](http://codes.wmo.int/wis/topic-hierarchy/centre-id).
 
-**Example**: `wmo_wis2_gc_downloaded_total{centre_id="ca-eccc-msc",report_by="de-dwd-global-cache"}` provides a count of the total number of data items that the Deutscher Wetterdienst (Germany), Global Cache Service (`de-dwd-global-cache`) has downloaded from the Meteorological Service of Canada WIS2 Node (`ca-eccc-msc`).
+**Example**: `wmo_wis2_gc_downloaded_total{centre_id="ca-eccc-msc",report_by="de-dwd-global-cache"}` provides a count of the total number of data items that the Deutscher Wetterdienst (Germany) Global Cache Service (`de-dwd-global-cache`) has downloaded from the Environment and Climate Change Canada, Meteorological Service of Canada WIS2 Node (`ca-eccc-msc`).
 
 The further required labels are part of the metric definition.
 
