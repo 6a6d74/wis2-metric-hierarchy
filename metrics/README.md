@@ -20,7 +20,7 @@ All metrics should at least contain the following labels:
   - For Global Caches: use the `centre-id` of the WIS2 component from where a resource is downloaded and cached, e.g., the origin WIS2 Node (parsed from the 4th field of the WIS2 Topic) or a Global Cache (from `properties.global-cache` in the WIS2 Notification Message)
   - For Global Discovery Catalogues: use the `centre-id` of the WIS2 Node where the discovery metadata record originated
   - For Global Monitors: use the `centre-id` of the WIS2 component that is publishing the metrics being downloaded
-- [`report_by`] the `centre-id` of the WIS2 component reporting this metric
+- `report_by` which indicates the `centre-id` of the WIS2 component reporting this metric
 
 The `centre-id` for each WIS2 component (WIS2 Node, Global Service, Sensor Centre, etc.) is listed in the [WMO Codes Registry](http://codes.wmo.int/wis/topic-hierarchy/centre-id).
 
@@ -44,4 +44,4 @@ The further required labels are part of the metric definition.
 |scgdc|Metrics on the Performance of Global Discovery Catalogues from Sensor Centres|[scgdc.csv](scgdc.csv)
 |scgrep|Metrics on the Performance of Global Replays from Sensor Centres|[scgrep.csv](scgrep.csv)
 |scgts|Metrics on the Publication of GTS Data in WIS2 from Sensor Centres|[scgts.csv](scgts.csv)
-|scobs|Metrics on the Availability of Observations from Sensor Centres|scobs.csv](scobs.csv)
+|scobs|Metrics on the Availability of Observations from Sensor Centres|[scobs.csv](scobs.csv)
